@@ -1,0 +1,58 @@
+.feature-popup {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: linear-gradient(135deg, #ffffff, #f0f0f5);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: none; /* Hide by default */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.feature-popup.show {
+  display: grid; /* Show when .show class is added */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.feature-item {
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+
+.feature-item h3 {
+  font-size: 1.3rem;
+  color: #6a5acd;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Styling the links inside the feature items */
+.feature-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.2s ease-in-out;
+}
+
+.feature-item a:hover {
+  background: rgba(106, 90, 205, 0.1);
+}

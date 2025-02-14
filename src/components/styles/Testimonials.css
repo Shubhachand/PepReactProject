@@ -1,0 +1,39 @@
+.testimonials {
+  padding: 60px 30px;
+  text-align: center;
+  background: linear-gradient(135deg, #1a1a2e, #16213e); /* Gradient background */
+  color: #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: 40px auto;
+  opacity: 0; /* Start hidden for animation */
+  transform: translateY(20px); /* Start position for animation */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.testimonials.visible {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Slide up */
+}
+
+.testimonials h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #9a86fd;
+}
+
+.testimonials p {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.testimonials p:last-of-type {
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #9a86fd;
+}
