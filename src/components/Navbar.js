@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="left-section">
-        <button className="hamburger" onClick={togglePopup}>
+        <button className="hamburger" >
           ☰
         </button>
         <div className="logo">
@@ -27,7 +27,7 @@ const Navbar = () => {
           </button>
           {isPopupOpen && <FeaturePopup isPopupOpen={isPopupOpen} closePopup={closePopup} />}
         </li>
-        <li><Link to="/solutions">Solutions</Link></li>
+        <li><Link to="/blogs">Blogs</Link></li>
         <li><Link to="/resources">Resources</Link></li>
       </ul>
     </nav>
