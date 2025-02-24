@@ -12,8 +12,8 @@ const FeaturePopup = ({ isPopupOpen, closePopup }) => {
         </Link>
       </div>
       <div className="feature-item" onClick={closePopup}>
-        <Link to="/quiz-maker">
-          <h3>Quiz Maker</h3>
+        <Link to="/quizes">
+          <h3>Quizes</h3>
           <p>Create quizzes to test and enhance your knowledge.</p>
         </Link>
       </div>

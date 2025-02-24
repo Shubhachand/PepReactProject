@@ -7,12 +7,12 @@ const Hero = () => {
 
   return (
     <section className="hero">
-      <h1>Transform Your Learning Experience with AI</h1>
+      <h1>Enhance Your Learning Journey</h1>
       <p>
-        Discover how Explora's AI-driven tools can revolutionize your study habits and boost your academic performance.
+        Explore insightful study blogs, interactive quizzes, and a smart to-do list to stay organized and productive.
       </p>
       <div className="hero-buttons">
-        <button className="learn-more" onClick={() => navigate('/signup')}>Let's Get Started</button>
+        <button className="learn-more" onClick={() => navigate('/signup')}>Get Started</button>
       </div>
     </section>
   );

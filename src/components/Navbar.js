@@ -28,7 +28,7 @@ const Navbar = () => {
           {isPopupOpen && <FeaturePopup isPopupOpen={isPopupOpen} closePopup={closePopup} />}
         </li>
         <li><Link to="/blogs">Blogs</Link></li>
-        <li><Link to="/resources">Resources</Link></li>
+        <li><Link to="/contactus">Contact Us</Link></li>
       </ul>
     </nav>
   );

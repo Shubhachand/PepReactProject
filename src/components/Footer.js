@@ -1,14 +1,14 @@
 import React from 'react';
 import './styles//Footer.css';
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="footer">
       <p>&copy; 2025 Scribler. All rights reserved.</p>
       <div className="footer-links">
-        <a href="/privacy-policy">Privacy Policy</a>
-        <a href="/terms-of-use">Terms of Use</a>
-        <button className="link-button" onClick={() => window.location.href='/contact-us'}>Contact Us</button>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <Link to="/contactus">Contact Us</Link>
       </div>
     </footer>
   );

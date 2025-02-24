@@ -7,15 +7,16 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import ToDoList from './components/ToDoList';
-import QuizMaker from './components/QuizMaker';
+import ContactUs from './components/ContactUs';
+// import QuizMaker from './components/QuizApp';
 import Notepad from './components/Notepad';
 import './App.css';
 import SignUp from './components/SignUp';
-import Resources from './components/Resources';
+// import Resources from './components/Resources';
 import Login from './components/Login';
 import Blogs from './components/Blogs';
 import BlogDetail from './components/BlogDetails';
-
+import QuizApp from './components/QuizApp';
 // Blog posts data
 const blogPosts = [
   {
@@ -133,10 +134,10 @@ function App() {
           <Route path="/features" element={<Features />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/todo-list" element={<ToDoList />} />
-          <Route path="/quiz-maker" element={<QuizMaker />} />
+          <Route path="/quizes" element={<QuizApp />} />
           <Route path="/notepad" element={<Notepad />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/resources" element={<Resources />} />
+          <Route path="/contactus" element={<ContactUs />} />
           <Route path="/login" element={<Login />} />
           <Route path="/blogs" element={<Blogs blogPosts={blogPosts} />} />
           <Route path="/blog/:id" element={<BlogDetail blogPosts={blogPosts} />} />
