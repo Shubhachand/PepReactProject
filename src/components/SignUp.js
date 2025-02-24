@@ -113,7 +113,7 @@ const SignUp = () => {
       </form>
       
       <p className="terms">
-        By signing up you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+        By signing up you agree to our <span>Terms of Service</span> and <span>Privacy Policy</span>
       </p>
       <button className="login-btn" onClick={() => navigate('/login')}>
         Already have an account? Log In

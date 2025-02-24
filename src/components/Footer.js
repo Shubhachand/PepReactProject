@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="footer">
       <p>&copy; 2025 Scribler. All rights reserved.</p>
       <div className="footer-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Use</a>
-        <Link to="/contactus">Contact Us</Link>
+        <span>Privacy Policy</span>
+        <span>Terms of Use</span>
+        <Link to="/contact-us">Contact Us</Link>
       </div>
     </footer>
   );
