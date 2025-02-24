@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/Features.css";
-import { FaBlog, FaQuestionCircle, FaTasks, FaVideo } from "react-icons/fa";
+import { FaBlog, FaQuestionCircle, FaTasks } from "react-icons/fa";
 
 const Features = () => {
   return (
