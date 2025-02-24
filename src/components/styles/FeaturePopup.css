@@ -56,3 +56,26 @@
 .feature-item a:hover {
   background: rgba(106, 90, 205, 0.1);
 }
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .feature-popup {
+    top: 40px;
+    right: 10px;
+    padding: 15px;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 10px;
+  }
+
+  .feature-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .feature-item p {
+    font-size: 0.9rem;
+  }
+
+  .feature-item a {
+    padding: 8px;
+  }
+}

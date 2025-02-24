@@ -3,10 +3,10 @@
   text-align: center;
   background: linear-gradient(135deg, #1a1a2e, #16213e); /* Gradient background */
   color: #e0e0e0;
-  border-radius: 12px;
+  /* border-radius: 12px; */
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-  max-width: 800px;
-  margin: 40px auto;
+  /* max-width: 800px; */
+  /* margin: 40px auto; */
   opacity: 0; /* Start hidden for animation */
   transform: translateY(20px); /* Start position for animation */
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;

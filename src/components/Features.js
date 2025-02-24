@@ -1,28 +1,34 @@
-import React from 'react';
-import './styles/Features.css';
-// Import icons from a library like FontAwesome or use SVGs
-import { FaQuestionCircle, FaTasks, FaVideo } from 'react-icons/fa';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./styles/Features.css";
+import { FaBlog, FaQuestionCircle, FaTasks, FaVideo } from "react-icons/fa";
 
 const Features = () => {
   return (
     <section className="features">
       <h2>Enhance Your Productivity with Our Tools</h2>
       <div className="feature-cards">
-        <div className="feature">
+        <Link to="/quizes" className="feature">
           <FaQuestionCircle className="feature-icon" />
-          <h3>Create Quiz</h3>
-          <p>Use auto-generated quizzes to put your new knowledge to use and improve your retention.</p>
-        </div>
-        <div className="feature">
+          <h3>Quiz</h3>
+          <p>
+            Use auto-generated quizzes to put your new knowledge to use and
+            improve your retention.
+          </p>
+        </Link>
+        <Link to="/todo-list" className="feature">
           <FaTasks className="feature-icon" />
           <h3>To-Do List</h3>
-          <p>Organize tasks efficiently and boost your productivity with our to-do list tool.</p>
-        </div>
-        <div className="feature">
-          <FaVideo className="feature-icon" />
-          <h3>Vlogs</h3>
-          <p>Create and share video blogs to connect with your audience and share your story.</p>
-        </div>
+          <p>
+            Organize tasks efficiently and boost your productivity with our
+            to-do list tool.
+          </p>
+        </Link>
+        <Link to="/blogs" className="feature">
+          <FaBlog className="feature-icon" />
+          <h3>Blogs</h3>
+          <p>Read blogs and gain knowledge to stay updated and informed.</p>
+        </Link>
       </div>
     </section>
   );

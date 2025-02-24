@@ -6,14 +6,21 @@ const FAQ = () => {
     <section className="faq">
       <h2>FAQs</h2>
       <div className="faq-item">
-        <h3>What is Explora?</h3>
-        <p>Explora is an AI-powered platform designed to assist students in their learning journey.</p>
+        <h3>What is Scribble?</h3>
+        <p>Scribble is a student study platform designed to assist students in their learning journey.</p>
       </div>
+      
       <div className="faq-item">
-        <h3>How does it work?</h3>
-        <p>Explora uses AI algorithms to analyze learning patterns and provide personalized study plans.</p>
+      <h3>How does Scribble work?</h3>
+      <p>Scribble uses gamification and adaptive learning techniques to help students improve their academic performance.</p>
       </div>
-    </section>
+      
+      <div className="faq-item">
+      <h3>How can I access Scribble?</h3>
+      <p>You can access Scribble by signing up for an account on our platform.</p>
+      </div>
+      </section>
+      
   );
 };
 

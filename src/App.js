@@ -129,6 +129,7 @@ function App() {
               <Hero />
               <Features />
               <Testimonials />
+              <FAQ/>
             </>
           } />
           <Route path="/features" element={<Features />} />
